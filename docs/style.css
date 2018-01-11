@@ -1,0 +1,192 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(images/tlo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.button,
+.numbercanal {
+    height: 50px;
+    width: 120px;
+    background-color: #fff;
+    opacity: 0.5;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 1px #fff;
+}
+
+.button2 {
+    height: 25px;
+    width: 50px;
+    background-color: #fff;
+    opacity: 0.5;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #000;
+    box-shadow: 1px 1px 1px #fff;
+}
+
+.button a {
+    line-height: 50px;
+    text-decoration-line: none;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.button2 a {
+    line-height: 25px;
+    text-decoration-line: none;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.button:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.on {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.off {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input {
+    clear: both;
+    margin-top: 30px;
+}
+
+.input ul {
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+
+.input li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.volume {
+    float: left;
+}
+
+.volume ul {
+
+    margin-left: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.volume .button {
+    margin-bottom: 10px;
+}
+
+.volume input {
+    width: 104px;
+}
+
+.canal {
+    float: right;
+}
+
+.canal ul {
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.numbercanal {
+    margin-bottom: 10px;
+}
+
+.plusminus li {
+    display: inline-block;
+}
+
+ul.plusminus {
+    padding-left: 5;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.images img {
+    margin-left: 10px;
+    opacity: 0.5;
+    border-radius: 7px;
+}
+
+.images img:hover {
+    background-color: #fff;
+    opacity: 1;
+    transition: 1s;
+}
+
+.image1 {
+    height: 75px;
+    width: 100px;
+}
+
+.image2 {
+    height: 75px;
+    width: 75px;
+}
+
+.image3 {
+    height: 75px;
+    width: 100px;
+}
+
+.image4 {
+    height: 75px;
+    width: 100px;
+}
+
+.log {
+    display: none;
+}
+
+@media (orientation: landscape) {
+    .input {
+        text-align: center;
+    }
+    .input ul {
+        padding-left: 0;
+    }
+    .images {
+        text-align: center;
+    }
+    .image1 {
+        height: 112.5px;
+        width: 150px;
+    }
+
+    .image2 {
+        height: 112.5px;
+        width: 112.5px;
+    }
+
+    .image3 {
+        height: 112.5px;
+        width: 150px;
+    }
+
+    .image4 {
+        height: 112.5px;
+        width: 150px;
+    }
+}
